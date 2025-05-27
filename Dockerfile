@@ -1,5 +1,5 @@
-FROM postgres:15-alpine
-LABEL author="ilaverlin@gmail.com"
+FROM postgres:16-alpine
+LABEL author="khomco@stsrecycle.com"
 LABEL inspired-by="https://github.com/Elexy/postgres-docker-tools, Alex Knol <alexknol@gmail.com>"
 
 RUN apk update && apk upgrade && \
